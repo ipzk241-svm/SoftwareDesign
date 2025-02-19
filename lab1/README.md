@@ -19,20 +19,20 @@
 + Використання абстрактного класу [Product](./Code/Classes/Product.cs) дозволяє розширювати асортимент без зміни базового коду.
 ### L — Liskov Substitution Principle (LSP)
 + [FoodProduct](./Code/Classes/FoodProduct.cs) і [ClothingProduct](./Code/Classes/ClothingProductProduct.cs) є підкласами [Product](./Code/Classes/Product.cs) і можуть використовуватися замість базового класу без порушення логіки програми.
-### I — Interface Segregation Principle (ISP)
-+ Інтерфейси [IWarehouseItem](./Code/Interface/IWarehouseItem.cs), [IWarehouse](./Code/Interface/IWarehouse.cs) та [IReporter](./Code/Interface/IReporter.cs) розділяють відповідальності між різними класами.
+### I — Interfaces Segregation Principle (ISP)
++ Інтерфейси [IWarehouseItem](./Code/Interfaces/IWarehouseItem.cs), [IWarehouse](./Code/Interfaces/IWarehouse.cs) та [IReporter](./Code/Interfaces/IReporter.cs) розділяють відповідальності між різними класами.
 ## D — Dependency Inversion Principle (DIP)
-+ [Reporter](./Code/Classes/Reporter.cs) залежить не від конкретного [Warehouse](./Code/Classes/Warehouse.cs), а від інтерфейсу [IWarehouse](./Code/Interface/IWarehouse.cs), що спрощує тестування та можливість зміни реалізації.
++ [Reporter](./Code/Classes/Reporter.cs) залежить не від конкретного [Warehouse](./Code/Classes/Warehouse.cs), а від інтерфейсу [IWarehouse](./Code/Interfaces/IWarehouse.cs), що спрощує тестування та можливість зміни реалізації.
 ## YAGNI (You Ain’t Gonna Need It)
 ![image](https://github.com/user-attachments/assets/7dc27797-ef4f-4076-acab-f5341f04ea6c)
 ## Composition Over Inheritance
 + Замість наслідування використовується композиція.
 + Наприклад, [Warehouse](./Code/Classes/Warehouse.cs) містить [Reporter](./Code/Classes/Reporter.cs), а не успадковується від нього.
-+ [IWarehouseItem](./Code/Interface/IWarehouseItem.cs) містить [Product](./Code/Classes/Product.cs), що дозволяє легко змінювати структуру без жорсткої прив’язки до батьківських класів.
-## Program to Interfaces, not Implementations
-+ У коді використовуються інтерфейси ([IMoney](./Code/Interface/IMoney.cs), [IProduct](./Code/Interface/IProduct.cs), [IWarehouseItem](./Code/Interface/IWarehouseItem.cs), [IWarehouse](./Code/Interface/IWarehouse.cs),
-+  [IReporter](./Code/Interface/IReporter.cs)), що дозволяє легко змінювати реалізації без модифікації основного коду.
-+ Наприклад, [Warehouse](./Code/Classes/Warehouse.cs) працює з [IWarehouseItem](./Code/Interface/IWarehouseItem.cs), а не з конкретним WareHouseItem.
++ [IWarehouseItem](./Code/Interfaces/IWarehouseItem.cs) містить [Product](./Code/Classes/Product.cs), що дозволяє легко змінювати структуру без жорсткої прив’язки до батьківських класів.
+## Program to Interfacess, not Implementations
++ У коді використовуються інтерфейси ([IMoney](./Code/Interfaces/IMoney.cs), [IProduct](./Code/Interfaces/IProduct.cs), [IWarehouseItem](./Code/Interfaces/IWarehouseItem.cs), [IWarehouse](./Code/Interfaces/IWarehouse.cs),
++  [IReporter](./Code/Interfaces/IReporter.cs)), що дозволяє легко змінювати реалізації без модифікації основного коду.
++ Наприклад, [Warehouse](./Code/Classes/Warehouse.cs) працює з [IWarehouseItem](./Code/Interfaces/IWarehouseItem.cs), а не з конкретним WareHouseItem.
 ## Fail Fast
 + Перевірки запобігають подальшому виконанню програми у разі помилки:
    - У [WareHouseItem.ChangeCount()](./Code/Classes/WareHouseItem.cs#L23-L30) є перевірка, щоб count не був меншим за 0.
