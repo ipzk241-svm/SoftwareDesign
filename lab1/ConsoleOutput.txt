@@ -1,0 +1,27 @@
+Warehouse Inventory:
+Product: Shirt, Price: 10.00 USD, Description: A nice shirt, Size: M, Amount: 10
+Product: Pants, Price: 20.00 USD, Description: A nice pair of pants, Size: L, Amount: 20
+Food: Apple - 1.00 USD, Expires: 26.02.2025, A delicious apple, Amount: 50
+Food: Banana - 2.00 USD, Expires: 24.02.2025, A delicious banana, Amount: 60
+
+Warehouse Inventory after removal:
+Product: Shirt, Price: 10.00 USD, Description: A nice shirt, Size: M, Amount: 14
+Product: Pants, Price: 20.00 USD, Description: A nice pair of pants, Size: L, Amount: 0
+Food: Apple - 1.00 USD, Expires: 26.02.2025, A delicious apple, Amount: 50
+Food: Banana - 2.00 USD, Expires: 24.02.2025, A delicious banana, Amount: 60
+
+Income Reports:
+Income: Shirt, Quantity: 10, Date: 19.02.2025 18:57:18
+Income: Pants, Quantity: 20, Date: 19.02.2025 18:57:18
+Income: Apple, Quantity: 50, Date: 19.02.2025 18:57:18
+Income: Banana, Quantity: 60, Date: 19.02.2025 18:57:18
+Income: Shirt, Quantity: 4, Date: 19.02.2025 18:57:18
+
+Outcome Reports:
+Outcome: Pants, Quantity: 20, Date: 19.02.2025 18:57:18
+
+Performing Inventory:
+Inventory:
+Product: Shirt, Price: 10.00 USD, Description: A nice shirt, Size: M, Amount: 14
+Food: Apple - 1.00 USD, Expires: 26.02.2025, A delicious apple, Amount: 50
+Food: Banana - 2.00 USD, Expires: 24.02.2025, A delicious banana, Amount: 60
