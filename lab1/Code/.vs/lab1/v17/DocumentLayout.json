@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab1\\Code\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8588C9CA-B48D-4824-8CED-19921F4F7B68}|lab1.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab1\\code\\classes\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8588C9CA-B48D-4824-8CED-19921F4F7B68}|lab1.csproj|solutionrelative:classes\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8588C9CA-B48D-4824-8CED-19921F4F7B68}|lab1.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab1\\code\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8588C9CA-B48D-4824-8CED-19921F4F7B68}|lab1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,24 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Money.cs",
+              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab1\\Code\\Classes\\Money.cs",
+              "RelativeDocumentMoniker": "Classes\\Money.cs",
+              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab1\\Code\\Classes\\Money.cs",
+              "RelativeToolTip": "Classes\\Money.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAIAwwFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T10:57:48.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab1\\Code\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab1\\Code\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T19:12:18.663Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

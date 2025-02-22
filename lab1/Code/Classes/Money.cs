@@ -7,10 +7,10 @@ public class Money : IMoney
 	public int Fraction { get; protected set; }
 	public CurrencyType Currency { get; protected set; }
 
-	public Money(int whole, int Fraction, CurrencyType currency)
+	public Money(int whole, int fraction, CurrencyType currency)
 	{
 		Whole = whole;
-		Fraction = Fraction;
+		Fraction = fraction;
 		Currency = currency;
 	}
 	public Money(decimal amount, CurrencyType currency)
@@ -89,6 +89,17 @@ public class Money : IMoney
 		return new Money(whole, fraction, m1.Currency);
 	}
 
+	public static Money operator *(Money m1, decimal mult)
+	{
+		if (m1 == null)
+			throw new ArgumentNullException("Money objects cannot be null");
+
+		decimal amount = m1.GetAmount() * mult;
+		int whole = (int)amount;
+		int fraction = (int)((amount - whole) * 100);
+
+		return new Money(whole, fraction, m1.Currency);
+	}
 
 	public static Money operator /(Money m1, Money m2)
 	{
@@ -98,6 +109,17 @@ public class Money : IMoney
 		Money secondOperand = (m1.Currency == m2.Currency) ? m2 : CurrencyConverter.Convert(m2, m1.Currency);
 
 		decimal amount = m1.GetAmount() / secondOperand.GetAmount();
+		int whole = (int)amount;
+		int fraction = (int)((amount - whole) * 100);
+
+		return new Money(whole, fraction, m1.Currency);
+	}
+	public static Money operator /(Money m1, decimal div)
+	{
+		if (m1 == null)
+			throw new ArgumentNullException("Money objects cannot be null");
+
+		decimal amount = m1.GetAmount() / div;
 		int whole = (int)amount;
 		int fraction = (int)((amount - whole) * 100);
 
