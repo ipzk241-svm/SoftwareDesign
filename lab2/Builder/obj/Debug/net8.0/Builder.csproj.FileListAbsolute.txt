@@ -13,3 +13,18 @@ D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net
 D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\Builder.pdb
 D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\Builder.genruntimeconfig.cache
 D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\ref\Builder.dll
+D:\study\KPZ\SoftwareDesign\lab2\Builder\bin\Debug\net8.0\Builder.exe
+D:\study\KPZ\SoftwareDesign\lab2\Builder\bin\Debug\net8.0\Builder.deps.json
+D:\study\KPZ\SoftwareDesign\lab2\Builder\bin\Debug\net8.0\Builder.runtimeconfig.json
+D:\study\KPZ\SoftwareDesign\lab2\Builder\bin\Debug\net8.0\Builder.dll
+D:\study\KPZ\SoftwareDesign\lab2\Builder\bin\Debug\net8.0\Builder.pdb
+D:\study\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\Builder.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\Builder.AssemblyInfoInputs.cache
+D:\study\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\Builder.AssemblyInfo.cs
+D:\study\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\Builder.csproj.CoreCompileInputs.cache
+D:\study\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\Builder.sourcelink.json
+D:\study\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\Builder.dll
+D:\study\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\refint\Builder.dll
+D:\study\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\Builder.pdb
+D:\study\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\Builder.genruntimeconfig.cache
+D:\study\KPZ\SoftwareDesign\lab2\Builder\obj\Debug\net8.0\ref\Builder.dll
