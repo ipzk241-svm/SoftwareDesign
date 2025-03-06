@@ -9,15 +9,15 @@ namespace Builder.classes
 {
 	internal class EnemyBuilder : ICharacterBuilder
 	{
-		private Character _enemy;
+		private ICharacter _enemy;
 
 		public EnemyBuilder()
 		{
-			_enemy = new Character();
+			_enemy = new ICharacter();
 		}
 		private void Reset()
 		{
-			_enemy = new Character();
+			_enemy = new ICharacter();
 		}
 		public ICharacterBuilder SetName(string name)
 		{
