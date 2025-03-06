@@ -1,0 +1,15 @@
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\bin\Debug\net8.0\Prototype.exe
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\bin\Debug\net8.0\Prototype.deps.json
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\bin\Debug\net8.0\Prototype.runtimeconfig.json
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\bin\Debug\net8.0\Prototype.dll
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\bin\Debug\net8.0\Prototype.pdb
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\obj\Debug\net8.0\Prototype.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\obj\Debug\net8.0\Prototype.AssemblyInfoInputs.cache
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\obj\Debug\net8.0\Prototype.AssemblyInfo.cs
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\obj\Debug\net8.0\Prototype.csproj.CoreCompileInputs.cache
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\obj\Debug\net8.0\Prototype.sourcelink.json
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\obj\Debug\net8.0\Prototype.dll
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\obj\Debug\net8.0\refint\Prototype.dll
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\obj\Debug\net8.0\Prototype.pdb
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\obj\Debug\net8.0\Prototype.genruntimeconfig.cache
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\Prototype\obj\Debug\net8.0\ref\Prototype.dll

@@ -1,0 +1,15 @@
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\bin\Debug\net8.0\AbstractFabric.exe
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\bin\Debug\net8.0\AbstractFabric.deps.json
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\bin\Debug\net8.0\AbstractFabric.runtimeconfig.json
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\bin\Debug\net8.0\AbstractFabric.dll
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\bin\Debug\net8.0\AbstractFabric.pdb
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\obj\Debug\net8.0\AbstractFabric.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\obj\Debug\net8.0\AbstractFabric.AssemblyInfoInputs.cache
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\obj\Debug\net8.0\AbstractFabric.AssemblyInfo.cs
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\obj\Debug\net8.0\AbstractFabric.csproj.CoreCompileInputs.cache
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\obj\Debug\net8.0\AbstractFabric.sourcelink.json
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\obj\Debug\net8.0\AbstractFabric.dll
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\obj\Debug\net8.0\refint\AbstractFabric.dll
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\obj\Debug\net8.0\AbstractFabric.pdb
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\obj\Debug\net8.0\AbstractFabric.genruntimeconfig.cache
+D:\Study\Politech\24-25\2 semester\KPZ\SoftwareDesign\lab2\AbstractFabric\obj\Debug\net8.0\ref\AbstractFabric.dll
