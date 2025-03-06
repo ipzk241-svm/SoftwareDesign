@@ -1,5 +1,6 @@
 ﻿# Реалізація шаблону "Будівельник" (Builder)
-
+## Діаграма
+![Builder](https://github.com/ipzk241-svm/SoftwareDesign/blob/main/lab2/diagrams/builder.drawio.png)
 ## Структура проекту
 
 ### Основні компоненти
