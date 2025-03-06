@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\FabricMethod\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E6531AB6-534F-438B-880F-B01F9303F85D}|..\\Builder\\Builder.csproj|d:\\study\\kpz\\softwaredesign\\lab2\\builder\\interfaces\\icharacterbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6531AB6-534F-438B-880F-B01F9303F85D}|..\\Builder\\Builder.csproj|d:\\study\\kpz\\softwaredesign\\lab2\\builder\\interfaces\\icharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6531AB6-534F-438B-880F-B01F9303F85D}|..\\Builder\\Builder.csproj|d:\\study\\kpz\\softwaredesign\\lab2\\builder\\classes\\characterdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -22,11 +28,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICharacterBuilder.cs",
+              "DocumentMoniker": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Builder\\interfaces\\ICharacterBuilder.cs",
+              "RelativeDocumentMoniker": "..\\Builder\\interfaces\\ICharacterBuilder.cs",
+              "ToolTip": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Builder\\interfaces\\ICharacterBuilder.cs",
+              "RelativeToolTip": "..\\Builder\\interfaces\\ICharacterBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:17:00.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ICharacter.cs",
+              "DocumentMoniker": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Builder\\interfaces\\ICharacter.cs",
+              "RelativeDocumentMoniker": "..\\Builder\\interfaces\\ICharacter.cs",
+              "ToolTip": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Builder\\interfaces\\ICharacter.cs",
+              "RelativeToolTip": "..\\Builder\\interfaces\\ICharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:16:28.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Builder\\Program.cs",
               "RelativeDocumentMoniker": "..\\Builder\\Program.cs",
@@ -34,12 +66,11 @@
               "RelativeToolTip": "..\\Builder\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T22:09:58.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T22:09:58.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CharacterDirector.cs",
               "DocumentMoniker": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Builder\\classes\\CharacterDirector.cs",
               "RelativeDocumentMoniker": "..\\Builder\\classes\\CharacterDirector.cs",
@@ -52,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EnemyBuilder.cs",
               "DocumentMoniker": "D:\\study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Builder\\classes\\EnemyBuilder.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Builder\\classes\\EnemyBuilder.cs",
@@ -64,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "README.md",
               "DocumentMoniker": "D:\\study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Builder\\README.md",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Builder\\README.md",
