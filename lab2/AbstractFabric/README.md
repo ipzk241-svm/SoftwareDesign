@@ -1,5 +1,7 @@
 ﻿# Реалізація шаблону "Абстрактна фабрика"
 
+## Діаграма
+![abstract factory](https://github.com/ipzk241-svm/SoftwareDesign/blob/main/lab2/diagrams/abstractFactory.drawio.png)
 ## Структура проекту
 
 ### Основні компоненти
