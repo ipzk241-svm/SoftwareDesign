@@ -1,5 +1,6 @@
 ﻿# Реалізація шаблону "Фабричний метод"
-
+## Діаграма
+![factory](https://github.com/ipzk241-svm/SoftwareDesign/blob/main/lab2/diagrams/factory.drawio.png)
 ## Структура проекту
 
 ### Основні компоненти
