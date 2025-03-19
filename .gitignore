@@ -1,0 +1,70 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]Release/
+[Dd]ReleasePublic/
+x64/
+x86/
+x64_x86/
+[Aa]rmeabi/
+[Aa]rmeabi-v7a/
+
+# Uncomment if you have tasks that create project's project's bin and obj folders
+#bin/
+#obj/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Microsoft Visual Studio for Mac
+.vscode/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# User-specific files
+*.swp
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt

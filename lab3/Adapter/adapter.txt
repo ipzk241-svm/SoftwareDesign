@@ -1,0 +1,6 @@
+[LOG] System started successfully
+[WARN] Low memory warning
+[ERROR] Critical error occurred
+[LOG] System started successfully
+[WARN] Low memory warning
+[ERROR] Critical error occurred

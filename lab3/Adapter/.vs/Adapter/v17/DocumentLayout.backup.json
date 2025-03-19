@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Adapter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1400772-9EB6-42E7-89C2-278EBA78200B}|..\\Proxy\\Proxy.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\proxy\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1400772-9EB6-42E7-89C2-278EBA78200B}|..\\Proxy\\Proxy.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1400772-9EB6-42E7-89C2-278EBA78200B}|..\\Proxy\\Proxy.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\proxy\\classes\\smarttextchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1400772-9EB6-42E7-89C2-278EBA78200B}|..\\Proxy\\Proxy.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\proxy\\classes\\smarttextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1400772-9EB6-42E7-89C2-278EBA78200B}|..\\Proxy\\Proxy.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\proxy\\classes\\smarttextreaderlocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1400772-9EB6-42E7-89C2-278EBA78200B}|..\\Proxy\\Proxy.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\proxy\\interfaces\\ismarttextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1400772-9EB6-42E7-89C2-278EBA78200B}|..\\Proxy\\Proxy.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\proxy\\proxy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC08051C-E028-428D-B706-4CB8350E8EDB}|..\\Bridge\\Bridge.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\bridge\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\README.md",
+              "RelativeDocumentMoniker": "..\\Proxy\\README.md",
+              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\README.md",
+              "RelativeToolTip": "..\\Proxy\\README.md",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-03-19T10:34:59.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SmartTextReaderLocker.cs",
+              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\classes\\SmartTextReaderLocker.cs",
+              "RelativeDocumentMoniker": "..\\Proxy\\classes\\SmartTextReaderLocker.cs",
+              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\classes\\SmartTextReaderLocker.cs",
+              "RelativeToolTip": "..\\Proxy\\classes\\SmartTextReaderLocker.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:53:28.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmartTextChecker.cs",
+              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\classes\\SmartTextChecker.cs",
+              "RelativeDocumentMoniker": "..\\Proxy\\classes\\SmartTextChecker.cs",
+              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\classes\\SmartTextChecker.cs",
+              "RelativeToolTip": "..\\Proxy\\classes\\SmartTextChecker.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:50:45.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SmartTextReader.cs",
+              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\classes\\SmartTextReader.cs",
+              "RelativeDocumentMoniker": "..\\Proxy\\classes\\SmartTextReader.cs",
+              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\classes\\SmartTextReader.cs",
+              "RelativeToolTip": "..\\Proxy\\classes\\SmartTextReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:50:19.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISmartTextReader.cs",
+              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\interfaces\\ISmartTextReader.cs",
+              "RelativeDocumentMoniker": "..\\Proxy\\interfaces\\ISmartTextReader.cs",
+              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\interfaces\\ISmartTextReader.cs",
+              "RelativeToolTip": "..\\Proxy\\interfaces\\ISmartTextReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:50:06.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Proxy",
+              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\Proxy.csproj",
+              "RelativeDocumentMoniker": "..\\Proxy\\Proxy.csproj",
+              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\Proxy.csproj",
+              "RelativeToolTip": "..\\Proxy\\Proxy.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-19T09:48:36.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Proxy\\Program.cs",
+              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Proxy\\Program.cs",
+              "RelativeToolTip": "..\\Proxy\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:48:29.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Bridge\\README.md",
+              "RelativeDocumentMoniker": "..\\Bridge\\README.md",
+              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Bridge\\README.md",
+              "RelativeToolTip": "..\\Bridge\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-03-19T09:47:32.525Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
