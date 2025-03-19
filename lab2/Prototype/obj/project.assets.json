@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Prototype\\Prototype.csproj",
+      "projectUniqueName": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Prototype\\Prototype.csproj",
       "projectName": "Prototype",
-      "projectPath": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Prototype\\Prototype.csproj",
+      "projectPath": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Prototype\\Prototype.csproj",
       "packagesPath": "C:\\Users\\sergi\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Prototype\\obj\\",
+      "outputPath": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Prototype\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

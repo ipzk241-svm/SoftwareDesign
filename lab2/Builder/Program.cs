@@ -3,14 +3,15 @@ using System.Text;
 
 Console.OutputEncoding = Encoding.UTF8;
 
-CharacterDirector director = new CharacterDirector();
 HeroBuilder heroBuilder = new HeroBuilder();
 EnemyBuilder enemyBuilder = new EnemyBuilder();
+CharacterDirector director = new CharacterDirector(heroBuilder);
 
-Character basicHero = (Character)director.NoobHero(heroBuilder);
-Character proHero = (Character)director.ProHero(heroBuilder);
-Character mobEnemy = (Character)director.MobEnemy(enemyBuilder);
-Character bossEnemy = (Character)director.BossEnemy(enemyBuilder);
+Character basicHero = (Character)director.NoobHero();
+Character proHero = (Character)director.ProHero();
+director.ChangeBuilder(enemyBuilder);
+Character mobEnemy = (Character)director.MobEnemy();
+Character bossEnemy = (Character)director.BossEnemy();
 
 basicHero.DisplayInfo();
 proHero.DisplayInfo();

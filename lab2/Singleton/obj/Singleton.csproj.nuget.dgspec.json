@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Singleton\\Singleton.csproj": {}
+    "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Singleton\\Singleton.csproj": {}
   },
   "projects": {
-    "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Singleton\\Singleton.csproj": {
+    "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Singleton\\Singleton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Singleton\\Singleton.csproj",
+        "projectUniqueName": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Singleton\\Singleton.csproj",
         "projectName": "Singleton",
-        "projectPath": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Singleton\\Singleton.csproj",
+        "projectPath": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Singleton\\Singleton.csproj",
         "packagesPath": "C:\\Users\\sergi\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab2\\Singleton\\obj\\",
+        "outputPath": "D:\\study\\KPZ\\SoftwareDesign\\lab2\\Singleton\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

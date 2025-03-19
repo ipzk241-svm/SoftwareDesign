@@ -18,5 +18,7 @@ namespace Builder.interfaces
 		public ICharacterBuilder AddInventoryItem(string item);
 		public ICharacterBuilder AddDeed(string deed);
 		public ICharacter Build();
-	}
+		void Reset();
+
+    }
 }

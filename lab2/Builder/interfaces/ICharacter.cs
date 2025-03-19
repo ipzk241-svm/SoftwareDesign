@@ -19,5 +19,7 @@ namespace Builder.interfaces
 		public List<string> Deeds { get; }
 		public void DisplayInfo();
 		public void DoSomething(string something);
-	}
+		public void Attack(ICharacter character);
+
+    }
 }
