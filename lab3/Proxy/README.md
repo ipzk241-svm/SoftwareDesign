@@ -4,27 +4,27 @@
 
 ### Основні компоненти
 
-1. **Інтерфейс `ISmartTextReader`**  
+1. **Інтерфейс [`ISmartTextReader`](interfaces/ISmartTextReader.cs)**  
    - Визначає метод `ReadText(string filePath)`, який читає файл і повертає його вміст у вигляді масиву символів.
 
-2. **Реальна реалізація `SmartTextReader`**  
+2. **Реальна реалізація [`SmartTextReader`](classes/SmartTextReader.cs)**  
    - Зчитує текстовий файл і повертає його вміст у вигляді масиву символів.
 
 3. **Проксі-класи**  
-   - `SmartTextChecker` — додає логування процесу читання файлу:  
+   - [`SmartTextReaderChecker`](classes/SmartTextReaderChecker.cs) — додає логування процесу читання файлу:  
      - Виводить повідомлення про відкриття файлу.  
      - Логує кількість рядків і символів у файлі.  
      - Сповіщає про завершення обробки файлу.  
-   - `SmartTextReaderLocker` — обмежує доступ до файлу за певним шаблоном у назві файлу:  
+   - [`SmartTextReaderLocker`](classes/SmartTextReaderLocker.cs) — обмежує доступ до файлу за певним шаблоном у назві файлу:  
      - Якщо назва файлу відповідає заданому регулярному виразу, доступ заборонено.  
-     - Інакше файл читається за допомогою `SmartTextReader`.
+     - Інакше файл читається за допомогою [`SmartTextReader`](classes/SmartTextReader.cs)e.
 
 ## Як реалізовано "Проксі"
 
-1. **Контроль доступу (`SmartTextReaderLocker`)**  
+1. **Контроль доступу ([`SmartTextReaderLocker`](classes/SmartTextReaderLocker.cs))**  
    - Дозволяє обмежити доступ до файлів із небажаними назвами.
 
-2. **Логування (`SmartTextChecker`)**  
+2. **Логування ([`SmartTextReaderChecker`](classes/SmartTextReaderLogger.cs))**  
    - Виводить інформацію про розмір і зміст файлу під час його читання.
 
 3. **Розширюваність**  
