@@ -14,7 +14,13 @@ namespace Memento
 		{
 			_content += text;
 		}
-
+		public void Delete()
+		{
+			if (_content.Length > 0)
+			{
+				_content = _content.Remove(_content.Length - 1);
+			}
+		}
 		public void Erase()
 		{
 			_content = "";
