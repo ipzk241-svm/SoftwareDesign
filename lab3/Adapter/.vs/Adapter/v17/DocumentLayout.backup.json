@@ -9,13 +9,16 @@
       "AbsoluteMoniker": "D:0:0:{407EB7B6-D63A-49F4-A15D-95010A8D6343}|..\\Composite\\Composite.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\composite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{407EB7B6-D63A-49F4-A15D-95010A8D6343}|..\\Composite\\Composite.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\composite\\classes\\networkimageloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407EB7B6-D63A-49F4-A15D-95010A8D6343}|..\\Composite\\Composite.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\composite\\classes\\imageloaderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{407EB7B6-D63A-49F4-A15D-95010A8D6343}|..\\Composite\\Composite.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\composite\\classes\\iimageloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{407EB7B6-D63A-49F4-A15D-95010A8D6343}|..\\Composite\\Composite.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\composite\\classes\\fileimageloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{407EB7B6-D63A-49F4-A15D-95010A8D6343}|..\\Composite\\Composite.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\composite\\classes\\networkimageloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48258271-EA38-423B-9FE7-B1C1745DF54B}|..\\Flyweight\\Flyweight.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab3\\flyweight\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
@@ -31,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageLoaderFactory.cs",
+              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Composite\\classes\\ImageLoaderFactory.cs",
+              "RelativeDocumentMoniker": "..\\Composite\\classes\\ImageLoaderFactory.cs",
+              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Composite\\classes\\ImageLoaderFactory.cs",
+              "RelativeToolTip": "..\\Composite\\classes\\ImageLoaderFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T16:59:59.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -45,13 +61,14 @@
               "RelativeDocumentMoniker": "..\\Composite\\Program.cs",
               "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Composite\\Program.cs",
               "RelativeToolTip": "..\\Composite\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:13:11.609Z"
+              "WhenOpened": "2025-04-16T14:13:11.609Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "NetworkImageLoader.cs",
               "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Composite\\classes\\NetworkImageLoader.cs",
               "RelativeDocumentMoniker": "..\\Composite\\classes\\NetworkImageLoader.cs",
@@ -59,11 +76,12 @@
               "RelativeToolTip": "..\\Composite\\classes\\NetworkImageLoader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:13:02.604Z"
+              "WhenOpened": "2025-04-16T14:13:02.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FileImageLoader.cs",
               "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Composite\\classes\\FileImageLoader.cs",
               "RelativeDocumentMoniker": "..\\Composite\\classes\\FileImageLoader.cs",
@@ -75,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IImageLoader.cs",
               "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Composite\\classes\\IImageLoader.cs",
               "RelativeDocumentMoniker": "..\\Composite\\classes\\IImageLoader.cs",
@@ -93,13 +111,14 @@
               "RelativeDocumentMoniker": "..\\Composite\\classes\\Image.cs",
               "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Composite\\classes\\Image.cs",
               "RelativeToolTip": "..\\Composite\\classes\\Image.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAMwBkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:07:35.233Z"
+              "WhenOpened": "2025-04-16T14:07:35.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "README.md",
               "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Flyweight\\README.md",
               "RelativeDocumentMoniker": "..\\Flyweight\\README.md",
@@ -111,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "README.md",
               "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab3\\Composite\\README.md",
               "RelativeDocumentMoniker": "..\\Composite\\README.md",

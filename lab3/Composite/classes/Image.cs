@@ -9,6 +9,7 @@ namespace Composite.classes
 	public class Image : LightNode
 	{
 		private string href;
+		private IImageLoaderFactory _loaderFactory;
 		private IImageLoader _loader;
 
 		public string Href
@@ -23,20 +24,16 @@ namespace Composite.classes
 
 		public Image(string href)
 		{
+			_loaderFactory = new ImageLoaderFactory();
 			Href = href;
-
-			SetLoader(href);
 		}
 		public void SetLoader(IImageLoader strategy)
 		{
 			_loader = strategy;
 		}
-		private void SetLoader(string href)
+		public void SetLoader(string href)
 		{
-			if (href.StartsWith("http://") || href.StartsWith("https://"))
-				_loader = new NetworkImageLoader();
-			else
-				_loader = new FileImageLoader();
+			_loader = _loaderFactory.CreateLoader(href);
 		}
 		public override string OuterHTML => $"<img src=\"{Href}\" alt=\"{_loader.Load(Href)}\"/>";
 
