@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility.csproj", "{F2FCF6B1-DE12-44CF-B636-5F22251D1532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "..\Mediator\Mediator.csproj", "{2544892B-13D0-40AA-BEB1-BD6A8FB848AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "..\Memento\Memento.csproj", "{5D1C0B3D-AF2C-4682-BC40-F54636B0022C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2FCF6B1-DE12-44CF-B636-5F22251D1532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FCF6B1-DE12-44CF-B636-5F22251D1532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FCF6B1-DE12-44CF-B636-5F22251D1532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FCF6B1-DE12-44CF-B636-5F22251D1532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2544892B-13D0-40AA-BEB1-BD6A8FB848AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2544892B-13D0-40AA-BEB1-BD6A8FB848AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2544892B-13D0-40AA-BEB1-BD6A8FB848AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2544892B-13D0-40AA-BEB1-BD6A8FB848AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D1C0B3D-AF2C-4682-BC40-F54636B0022C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1C0B3D-AF2C-4682-BC40-F54636B0022C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1C0B3D-AF2C-4682-BC40-F54636B0022C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1C0B3D-AF2C-4682-BC40-F54636B0022C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
