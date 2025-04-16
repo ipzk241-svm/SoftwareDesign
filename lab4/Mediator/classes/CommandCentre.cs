@@ -24,9 +24,9 @@ namespace Mediator.classes
 		{
 			foreach (var runway in _runways)
 			{
-				if (runway.IsAvailable)
+				if (!runway.IsOccupied)
 				{
-					runway.Occupy(aircraft);
+					runway.Occupy();
 					return;
 				}
 			}
@@ -38,7 +38,7 @@ namespace Mediator.classes
 		{
 			foreach (var runway in _runways)
 			{
-				if (runway.OccupiedBy == aircraft)
+				if (runway.IsOccupied)
 				{
 					runway.Release();
 					return;

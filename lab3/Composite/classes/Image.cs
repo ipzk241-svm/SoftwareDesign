@@ -31,7 +31,7 @@ namespace Composite.classes
 		{
 			_loader = strategy;
 		}
-		public void SetLoader(string href)
+		private void SetLoader(string href)
 		{
 			if (href.StartsWith("http://") || href.StartsWith("https://"))
 				_loader = new NetworkImageLoader();

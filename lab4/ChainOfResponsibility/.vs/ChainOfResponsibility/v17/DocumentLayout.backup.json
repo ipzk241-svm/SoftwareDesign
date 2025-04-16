@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\ChainOfResponsibility\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D1C0B3D-AF2C-4682-BC40-F54636B0022C}|..\\Memento\\Memento.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab4\\memento\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D1C0B3D-AF2C-4682-BC40-F54636B0022C}|..\\Memento\\Memento.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab4\\memento\\texteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -13,19 +10,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D1C0B3D-AF2C-4682-BC40-F54636B0022C}|..\\Memento\\Memento.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab4\\memento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2544892B-13D0-40AA-BEB1-BD6A8FB848AA}|..\\Mediator\\Mediator.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab4\\mediator\\classes\\commandcentre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2544892B-13D0-40AA-BEB1-BD6A8FB848AA}|..\\Mediator\\Mediator.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab4\\mediator\\classes\\aircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2544892B-13D0-40AA-BEB1-BD6A8FB848AA}|..\\Mediator\\Mediator.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab4\\mediator\\classes\\runway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2FCF6B1-DE12-44CF-B636-5F22251D1532}|ChainOfResponsibility.csproj|d:\\study\\politech\\24-25\\2 semester\\kpz\\softwaredesign\\lab4\\chainofresponsibility\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2FCF6B1-DE12-44CF-B636-5F22251D1532}|ChainOfResponsibility.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,114 +19,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "README.md",
-              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Memento\\README.md",
-              "RelativeDocumentMoniker": "..\\Memento\\README.md",
-              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Memento\\README.md",
-              "RelativeToolTip": "..\\Memento\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-04-16T12:56:32.352Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TextDocument.cs",
               "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Memento\\TextDocument.cs",
               "RelativeDocumentMoniker": "..\\Memento\\TextDocument.cs",
               "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Memento\\TextDocument.cs",
               "RelativeToolTip": "..\\Memento\\TextDocument.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:37:39.244Z",
+              "WhenOpened": "2025-04-16T15:39:24.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Aircraft.cs",
-              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Mediator\\classes\\Aircraft.cs",
-              "RelativeDocumentMoniker": "..\\Mediator\\classes\\Aircraft.cs",
-              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Mediator\\classes\\Aircraft.cs",
-              "RelativeToolTip": "..\\Mediator\\classes\\Aircraft.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:36:20.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CommandCentre.cs",
-              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Mediator\\classes\\CommandCentre.cs",
-              "RelativeDocumentMoniker": "..\\Mediator\\classes\\CommandCentre.cs",
-              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Mediator\\classes\\CommandCentre.cs",
-              "RelativeToolTip": "..\\Mediator\\classes\\CommandCentre.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:35:57.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Runway.cs",
-              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Mediator\\classes\\Runway.cs",
-              "RelativeDocumentMoniker": "..\\Mediator\\classes\\Runway.cs",
-              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Mediator\\classes\\Runway.cs",
-              "RelativeToolTip": "..\\Mediator\\classes\\Runway.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwCAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:35:34.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\ChainOfResponsibility\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\ChainOfResponsibility\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:35:26.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Memento\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Memento\\Program.cs",
-              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Memento\\Program.cs",
-              "RelativeToolTip": "..\\Memento\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:29:05.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TextEditor.cs",
               "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Memento\\TextEditor.cs",
               "RelativeDocumentMoniker": "..\\Memento\\TextEditor.cs",
               "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Memento\\TextEditor.cs",
               "RelativeToolTip": "..\\Memento\\TextEditor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAA0wFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:28:38.27Z",
+              "WhenOpened": "2025-04-16T15:32:21.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Memento\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Memento\\Program.cs",
+              "ToolTip": "D:\\Study\\Politech\\24-25\\2 semester\\KPZ\\SoftwareDesign\\lab4\\Memento\\Program.cs",
+              "RelativeToolTip": "..\\Memento\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T15:31:19.818Z",
               "EditorCaption": ""
             }
           ]
