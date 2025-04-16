@@ -9,33 +9,93 @@ namespace Memento
 	public class TextEditor
 	{
 		private TextDocument _document = new TextDocument();
-		private Stack<TextDocument.Memento> _history = new Stack<TextDocument.Memento>();
+		private Queue<TextDocument.Memento> _history = new();
+		private const int _maxLength = 20;
 
-		public void Type(string text)
+		public void Start()
 		{
-			_history.Push(_document.Save());
+			while (true)
+			{
+				ConsoleKeyInfo keyInfo = Console.ReadKey(intercept: true);
+
+				if (keyInfo.Key == ConsoleKey.Z && keyInfo.Modifiers.HasFlag(ConsoleModifiers.Control))
+				{
+					Undo();
+				}
+				else if (keyInfo.Key == ConsoleKey.Escape)
+				{
+					Console.WriteLine("🚪 Вихід з програми");
+					break;
+				}
+				else if (keyInfo.Key == ConsoleKey.Backspace)
+				{
+					if (_document.GetContent().Length > 0)
+					{
+						Delete();
+						Show();
+					}
+				}
+				else if (keyInfo.Key == ConsoleKey.Enter)
+				{
+					Type("\n");
+					Show();
+				}
+				else
+				{
+
+					Type(keyInfo.KeyChar.ToString());
+					Show();
+				}
+			}
+		}
+		private void Type(string text)
+		{
+			if (_history.Count >= _maxLength)
+			{
+				_history.Dequeue();
+			}
+			_history.Enqueue(_document.Save());
 			_document.Write(text);
 		}
 
-		public void Clear()
+		private void Delete()
 		{
-			_history.Push(_document.Save());
+			if (_history.Count >= _maxLength)
+			{
+				_history.Dequeue();
+			}
+			_history.Enqueue(_document.Save());
+			_document.Delete();
+		}
+
+		private void Clear()
+		{
+			_history.Enqueue(_document.Save());
 			_document.Erase();
 		}
 
-		public void Undo()
+		private void Undo()
 		{
 			if (_history.Count > 0)
 			{
-				var memento = _history.Pop();
-				_document.Restore(memento);
+				var last = _history.Last();
+				_history = new Queue<TextDocument.Memento>(_history.Take(_history.Count - 1));
+				_document.Restore(last);
+				Show();
 			}
 		}
 
-		public void Show()
+		private void Show()
 		{
-			Console.WriteLine("%%% Current document content:");
-			Console.WriteLine(_document.GetContent());
+			Console.Clear();
+
+			string content = _document.GetContent();
+			Console.Write(content);
+
+			int lines = content.Count(c => c == '\n');
+			int lastLineLength = content.Split('\n').LastOrDefault()?.Length ?? 0;
+
+			Console.SetCursorPosition(lastLineLength, lines);
 		}
 	}
 }
