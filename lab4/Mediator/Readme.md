@@ -2,27 +2,27 @@
 
 ### Основні компоненти
 
-- [**IAirTrafficMediator**](classes/IAirTrafficMediator.cs): Інтерфейс, що визначає методи посередника (`RequestLanding` та `NotifyTakeOff`).
-- [**CommandCentre**](classes/): Конкретний посередник, який керує смугами та літаками, координуючи їхні дії.
-- [**Aircraft**](classes/): Представляє літаки, які запитують посадку або повідомляють про зліт через посередника.
-- [**Runway**](classes/): Представляє злітно-посадкові смуги, які можуть бути зайняті або звільнені, зі станом, керованим через посередника.
-- [**BaseComponent**](classes/): Базовий клас, який забезпечує посилання на посередника для компонентів.
+- [**IAirTrafficMediator**](classes/IAirTrafficMediator.cs): Інтерфейс, що визначає методи посередника ([`RequestLanding`](classes/IAirTrafficMediator.cs#L11) та [`NotifyTakeOff`](classes/IAirTrafficMediator.cs#L12)).
+- [**CommandCentre**](classes/CommandCentre.cs): Конкретний посередник, який керує смугами та літаками, координуючи їхні дії.
+- [**Aircraft**](classes/Aircraft.cs): Представляє літаки, які запитують посадку або повідомляють про зліт через посередника.
+- [**Runway**](classes/Runway.cs): Представляє злітно-посадкові смуги, які можуть бути зайняті або звільнені, зі станом, керованим через посередника.
+- [**BaseComponent**](classes/BaseComponent.cs): Базовий клас, який забезпечує посилання на посередника для компонентів.
 
 ### Як це працює
 
 1. **Ініціалізація**:
 
-   - Смуги та літаки реєструються в `CommandCentre`.
-   - Кожна смуга та літак мають посилання на посередника (`CommandCentre`).
+   - Смуги та літаки реєструються в [`CommandCentre`](classes/CommandCentre.cs).
+   - Кожна смуга та літак мають посилання на посередника ([`CommandCentre`](classes/CommandCentre.cs)).
 
 2. **Посадка**:
 
-   - Літак викликає `RequestLanding`, що обробляється `CommandCentre`.
+   - Літак викликає [`RequestLanding`](classes/CommandCentre.cs#L23-L35), що обробляється [`CommandCentre`](classes/CommandCentre.cs).
    - Посередник перевіряє наявність вільної смуги та призначає її літаку, позначаючи смугу як зайняту.
 
 3. **Зліт**:
 
-   - Літак викликає `TakeOff`, повідомляючи посередника через `NotifyTakeOff`.
+   - Літак викликає [`TakeOff`](classes/Aircraft.cs#L23-L29), повідомляючи посередника через [`NotifyTakeOff`](classes/CommandCentre.cs#L37-L49).
    - Посередник звільняє смугу, зайняту літаком, позначаючи її як вільну.
 
 4. **Керування станом**:
