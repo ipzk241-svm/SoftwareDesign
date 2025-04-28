@@ -5,7 +5,7 @@ namespace Mediator.classes
 	public class Runway
 	{
 		public Guid Id { get; } = Guid.NewGuid();
-		public Aircraft? OccupiedBy { get; private set; }
+		public bool IsOccupied { get; private set; }
 		private IAirTrafficMediator _mediator;
 
 		public Runway(IAirTrafficMediator mediator)
@@ -13,19 +13,18 @@ namespace Mediator.classes
 			_mediator = mediator;
 		}
 
-		public bool IsAvailable => OccupiedBy == null;
 
-		public void Occupy(Aircraft aircraft)
+		public void Occupy()
 		{
-			OccupiedBy = aircraft;
-			Console.WriteLine($"+ Aircraft {aircraft.Name} landed on Runway {Id}");
+			IsOccupied = true;
+			Console.WriteLine($"+ Aircraft landed on Runway {Id}");
 			HighlightRed();
 		}
 
 		public void Release()
 		{
-			Console.WriteLine($"- Aircraft {OccupiedBy?.Name} took off from Runway {Id}");
-			OccupiedBy = null;
+			Console.WriteLine($"- Aircraft took off from Runway {Id}");
+			IsOccupied = false;
 			HighlightGreen();
 		}
 
