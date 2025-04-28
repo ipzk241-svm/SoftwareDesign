@@ -28,7 +28,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 2,
+=======
           "SelectedChildIndex": 7,
+>>>>>>> lab4-t4
           "Children": [
             {
               "$type": "Bookmark",
