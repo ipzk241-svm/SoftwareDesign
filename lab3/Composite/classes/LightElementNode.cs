@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +7,14 @@ using System.Threading.Tasks;
 
 namespace Composite.classes
 {
-	public class LightElementNode : LightNode
+	public class LightElementNode : LightNode, NodeAggregate
 	{
 		private string _tagName;
 		private bool _isBlock;
 		private bool _isSelfClosing;
 		private List<string> _cssClasses;
 		private List<LightNode> _children;
+		private bool _reverseDirection = false;
 
 		private Dictionary<string, List<Action>> _eventListeners = new Dictionary<string, List<Action>>();
 
@@ -106,6 +108,20 @@ namespace Composite.classes
 				if (_isBlock && sb.Length > 0) sb.Length--;
 			}
 			return sb.ToString();
+		}
+		public void ReverseDirection()
+		{
+			_reverseDirection = !_reverseDirection;
+		}
+		public List<LightNode> GetChildren() => _children;
+
+		public IEnumerator GetEnumerator()
+		{
+			return new LightNodeIterator(this, _reverseDirection);
+		}
+		public void Add(LightNode child)
+		{
+			AddChild(child);
 		}
 	}
 
