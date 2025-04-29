@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Composite.classes
 {
-	public interface NodeAggregate: IEnumerable
+	public interface INodeAggregate
 	{
 		public abstract IEnumerator GetEnumerator();
 	}

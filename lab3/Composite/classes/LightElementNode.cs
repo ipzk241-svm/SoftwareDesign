@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Composite.classes
 {
-	public class LightElementNode : LightNode, NodeAggregate
+	public class LightElementNode : LightNode, INodeAggregate
 	{
 		private string _tagName;
 		private bool _isBlock;
