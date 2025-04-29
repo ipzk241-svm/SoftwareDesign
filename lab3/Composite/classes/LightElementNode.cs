@@ -27,8 +27,6 @@ namespace Composite.classes
 			_children = new List<LightNode>();
 		}
 
-		public void AddChild(LightNode child) => _children.Add(child);
-
 		public void AddEventListener(string eventType, Action callback)
 		{
 			if (!_eventListeners.ContainsKey(eventType))
@@ -121,7 +119,7 @@ namespace Composite.classes
 		}
 		public void Add(LightNode child)
 		{
-			AddChild(child);
+			_children.Add(child);
 		}
 	}
 
