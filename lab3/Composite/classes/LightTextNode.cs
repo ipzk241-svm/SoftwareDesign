@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Composite.classes
 {
-	internal class LightTextNode : LightNode
+	public class LightTextNode : LightNode
 	{
 		private string _text;
 
@@ -17,5 +17,6 @@ namespace Composite.classes
 
 		public override string OuterHTML => _text;
 		public override string InnerHTML => _text;
+
 	}
 }

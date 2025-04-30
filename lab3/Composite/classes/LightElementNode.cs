@@ -121,6 +121,6 @@ namespace Composite.classes
 		{
 			_children.Add(child);
 		}
+	
 	}
-
 }

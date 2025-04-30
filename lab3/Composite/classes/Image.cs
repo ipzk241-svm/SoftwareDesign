@@ -38,5 +38,6 @@ namespace Composite.classes
 		public override string OuterHTML => $"<img src=\"{Href}\" alt=\"{_loader.Load(Href)}\"/>";
 
 		public override string InnerHTML => "";
+
 	}
 }
