@@ -22,5 +22,10 @@ namespace Composite.classes
 		{
 			return OuterHTML;
 		}
+
+		public override void Accept(IVisitor visitor)
+		{
+			visitor.Visit(this);
+		}
 	}
 }
