@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Composite.classes
 {
-	public abstract class LightNode
+	public abstract class LightNode : IVisitable
 	{
 		public abstract string OuterHTML { get; }
 		public abstract string InnerHTML { get; }
@@ -15,5 +15,6 @@ namespace Composite.classes
 		{
 			return OuterHTML; 
 		}
+		public abstract void Accept(IVisitor visitor);
 	}
 }

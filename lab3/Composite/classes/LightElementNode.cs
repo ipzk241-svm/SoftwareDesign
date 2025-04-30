@@ -9,18 +9,20 @@ namespace Composite.classes
 {
 	public class LightElementNode : LightNode, INodeAggregate
 	{
-		private string _tagName;
-		private bool _isBlock;
-		private bool _isSelfClosing;
-		private List<string> _cssClasses;
-		private List<LightNode> _children;
+		public string _tagName;
+		public bool _isBlock;
+		public bool _isSelfClosing;
+		public string? _id;
+		public List<string> _cssClasses;
+		public List<LightNode> _children;
 		private bool _reverseDirection = false;
 		private ILightNodeState _state = new EnabledState();
 
 		private Dictionary<string, List<Action>> _eventListeners = new Dictionary<string, List<Action>>();
 
-		public LightElementNode(string tagName, bool isBlock, bool isSelfClosing, List<string> cssClasses = null)
+		public LightElementNode(string tagName, bool isBlock, bool isSelfClosing, string id = null, List<string> cssClasses = null)
 		{
+			_id = id;
 			_tagName = tagName;
 			_isBlock = isBlock;
 			_isSelfClosing = isSelfClosing;
@@ -143,6 +145,11 @@ namespace Composite.classes
 		public void HandleEvent(string eventType)
 		{
 			_state.HandleEvent(this, eventType);
+		}
+
+		public override void Accept(IVisitor visitor)
+		{
+			visitor.Visit(this);
 		}
 	}
 }
