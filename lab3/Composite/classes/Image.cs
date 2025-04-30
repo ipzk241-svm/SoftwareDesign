@@ -35,8 +35,13 @@ namespace Composite.classes
 		{
 			_loader = _loaderFactory.CreateLoader(href);
 		}
-		public override string OuterHTML => $"<img src=\"{Href}\" alt=\"{_loader.Load(Href)}\"/>";
+		public override string OuterHTML =>  $"<img src=\"{Href}\" alt=\"{_loader.Load(Href)}\"/>";
 
 		public override string InnerHTML => "";
+
+		public string Render()
+		{
+			return OuterHTML;
+		}
 	}
 }

@@ -15,6 +15,7 @@ namespace Composite.classes
 		private List<string> _cssClasses;
 		private List<LightNode> _children;
 		private bool _reverseDirection = false;
+		private ILightNodeState _state = new EnabledState();
 
 		private Dictionary<string, List<Action>> _eventListeners = new Dictionary<string, List<Action>>();
 
@@ -50,7 +51,7 @@ namespace Composite.classes
 
 		public override string OuterHTML => BuildHTML(0);
 
-		private string BuildHTML(int indentLevel)
+		public string BuildHTML(int indentLevel)
 		{
 			StringBuilder sb = new StringBuilder();
 			string classes = _cssClasses.Count > 0 ? $" class=\"{string.Join(" ", _cssClasses)}\"" : "";
@@ -69,23 +70,30 @@ namespace Composite.classes
 					sb.Append("\n");
 					foreach (var child in _children)
 					{
-						if (child is LightElementNode element)
-							sb.Append(element.BuildHTML(indentLevel + 1));
-						else
-							sb.Append($"{new string(' ', (indentLevel + 1) * 2)}{child.OuterHTML}");
-						sb.Append("\n");
+						string rendered = child.Render(indentLevel + 1);
+						if (!string.IsNullOrWhiteSpace(rendered))
+						{
+							sb.Append($"{new string(' ', (indentLevel + 1) * 2)}{rendered}\n");
+						}
 					}
 					sb.Append($"{indent}");
 				}
 				else
 				{
 					foreach (var child in _children)
-						sb.Append(child.OuterHTML);
+					{
+						string rendered = child.Render(indentLevel + 1);
+						if (!string.IsNullOrWhiteSpace(rendered))
+						{
+							sb.Append(rendered);
+						}
+					}
 				}
 				sb.Append($"</{_tagName}>");
 			}
 			return sb.ToString();
 		}
+
 
 		public override string InnerHTML => _isSelfClosing ? "" : BuildInnerHTML(0);
 
@@ -120,6 +128,21 @@ namespace Composite.classes
 		public void Add(LightNode child)
 		{
 			_children.Add(child);
+		}
+
+		public void SetState(ILightNodeState state)
+		{
+			_state = state;
+		}
+
+		public override string Render(int indentLevel = 0)
+		{
+			return _state.Render(this, indentLevel);
+		}
+
+		public void HandleEvent(string eventType)
+		{
+			_state.HandleEvent(this, eventType);
 		}
 	}
 
