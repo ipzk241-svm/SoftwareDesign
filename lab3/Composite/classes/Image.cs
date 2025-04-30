@@ -14,7 +14,7 @@ namespace Composite.classes
 
 		public string Href
 		{
-			get { return href; }
+			get => href;
 			set
 			{
 				SetLoader(value);
@@ -27,22 +27,40 @@ namespace Composite.classes
 			_loaderFactory = new ImageLoaderFactory();
 			Href = href;
 		}
+
 		public void SetLoader(IImageLoader strategy)
 		{
 			_loader = strategy;
 		}
+
 		public void SetLoader(string href)
 		{
 			_loader = _loaderFactory.CreateLoader(href);
 		}
-		public override string OuterHTML =>  $"<img src=\"{Href}\" alt=\"{_loader.Load(Href)}\"/>";
+
+		public override string OuterHTML => $"<img src=\"{Href}\" alt=\"{_loader.Load(Href)}\"/>";
 
 		public override string InnerHTML => "";
 
-		public string Render()
+		protected override string RenderContent(int indentLevel)
 		{
-			return OuterHTML;
+			OnStylesApplied();
+			OnClassListApplied();
+			OnInserted();
+
+			string indent = new string(' ', indentLevel * 2);
+			string result = indent + OuterHTML;
+
+			OnRemoved(); 
+			return result;
 		}
+
+		protected override void OnCreated() => Console.WriteLine("Image created");
+		protected override void OnInserted() => Console.WriteLine("Image inserted");
+		protected override void OnRemoved() => Console.WriteLine("Image removed");
+		protected override void OnTextRendered() => Console.WriteLine("Image text rendered");
+		protected virtual void OnStylesApplied() => Console.WriteLine("Image styles applied");
+		protected virtual void OnClassListApplied() => Console.WriteLine("Image class list applied");
 
 		public override void Accept(IVisitor visitor)
 		{

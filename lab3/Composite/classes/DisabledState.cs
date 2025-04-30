@@ -8,15 +8,15 @@ namespace Composite.classes
 {
 	public class DisabledState : ILightNodeState
 	{
-		public string Render(LightNode node, int indentLevel)
+		public string Render(LightNode node, int indentLevel = 0)
 		{
 			return string.Empty;
 		}
 
 		public void HandleEvent(LightNode node, string eventType)
 		{
-			Console.WriteLine($"[Disabled] Event '{eventType}' ігнорується.");
 		}
 	}
+
 
 }

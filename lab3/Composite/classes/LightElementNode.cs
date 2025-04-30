@@ -51,13 +51,15 @@ namespace Composite.classes
 
 		public int ChildCount => _children.Count;
 
-		public override string OuterHTML => BuildHTML(0);
+		public override string OuterHTML => RenderContent(0);
 
-		public string BuildHTML(int indentLevel)
+
+
+		protected override string RenderContent(int indentLevel)
 		{
 			StringBuilder sb = new StringBuilder();
 			string classes = _cssClasses.Count > 0 ? $" class=\"{string.Join(" ", _cssClasses)}\"" : "";
-			string indent = new string(' ', indentLevel * 2);
+			string indent = new string(' ', indentLevel); 
 
 			if (_isSelfClosing)
 			{
@@ -75,7 +77,7 @@ namespace Composite.classes
 						string rendered = child.Render(indentLevel + 1);
 						if (!string.IsNullOrWhiteSpace(rendered))
 						{
-							sb.Append($"{new string(' ', (indentLevel + 1) * 2)}{rendered}\n");
+							sb.Append($"{new string(' ', (indentLevel + 1))}{rendered}\n");
 						}
 					}
 					sb.Append($"{indent}");
@@ -108,7 +110,7 @@ namespace Composite.classes
 				{
 					if (_isBlock) sb.Append(new string(' ', indentLevel * 2));
 					if (child is LightElementNode element)
-						sb.Append(element.BuildHTML(indentLevel));
+						sb.Append(element.RenderContent(indentLevel));
 					else
 						sb.Append(child.OuterHTML);
 					if (_isBlock) sb.Append("\n");
