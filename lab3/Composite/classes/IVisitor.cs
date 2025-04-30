@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Composite.classes
 {
-	internal interface IVisitor
+	public interface IVisitor
 	{
 		void Visit(LightElementNode elementNode);
 		void Visit(LightTextNode textNode);

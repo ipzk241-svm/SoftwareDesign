@@ -10,14 +10,7 @@ namespace Composite.classes
 	{
 		public string Render(LightNode node, int indentLevel = 0)
 		{
-			if (node is LightElementNode element)
-			{
-				return element.BuildHTML(indentLevel);
-			}
-			else
-			{
-				return node.OuterHTML;
-			}
+			return node.RenderTemplate(indentLevel);
 		}
 
 		public void HandleEvent(LightNode node, string eventType)
