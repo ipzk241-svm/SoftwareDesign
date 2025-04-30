@@ -10,5 +10,10 @@ namespace Composite.classes
 	{
 		public abstract string OuterHTML { get; }
 		public abstract string InnerHTML { get; }
+
+		public virtual string Render(int indentLevel = 0)
+		{
+			return OuterHTML; 
+		}
 	}
 }

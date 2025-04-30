@@ -18,5 +18,9 @@ namespace Composite.classes
 		public override string OuterHTML => _text;
 		public override string InnerHTML => _text;
 
+		public string Render()
+		{
+			return OuterHTML;
+		}
 	}
 }
